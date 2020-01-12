@@ -2,7 +2,7 @@ module.exports = {
   title: `KUSG.io`,
   description: `Kwon Ku Sang record and portfolio`,
   author: `[KU_SANG]`,
-  introduction: `Back-End 개발자가 되기 위한 개발로그. @경기대학교 @P'rogramming-12th`,
+  introduction: `🐬Back-End 개발자가 되기 위한 개발로그. @경기대학교 @P'rogramming-12th`,
   siteUrl: `https://rnjsrntkd95.github.io`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
@@ -14,13 +14,13 @@ module.exports = {
   keywords: [`blog`],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    utterances: 'JaeYeopHan/gatsby-starter-bee', // Your repository for archive comment
+    utterances: 'rnjsrntkd95/rnjsrntkd95.github.io', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post
   },
   sponsor: {
-    buyMeACoffeeId: 'jbee',
+    buyMeACoffeeId: '',
   },
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
