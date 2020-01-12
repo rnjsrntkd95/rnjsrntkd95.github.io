@@ -46,12 +46,20 @@ body.light {
   .thumbnail {
     h3 {
       color: $dark-gray;
+      margin-top: 13px;
+      margin-bottom: 5px;      
+    }
+    h6 {
+      color: #a9a9a9;
+      margin-top: 0;
     }
     p {
       color: $middle-gray;
     }
     &:hover {
       text-shadow: $light-hover-text-shadow;
+      background-color: rgba(0,30,84,.07);
+
     }
   }
 

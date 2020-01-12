@@ -47,12 +47,19 @@ body.dark {
   .thumbnail {
     h3 {
       color: $dark-light-font-color;
+      margin-top: 13px;
+      margin-bottom: 5px;  
+    }
+    h6 {
+      color: #1e90ff63;
+      margin-top: 0;
     }
     p {
       color: $dark-middle-font-color;
     }
     &:hover {
       text-shadow: $dark-hover-text-shadow;
+      background-color: rgba(45,67,115,.49);
     }
   }
 
