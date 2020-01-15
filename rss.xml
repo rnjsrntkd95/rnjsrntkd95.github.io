@@ -1,10 +1,83 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KUSG.io]]></title><description><![CDATA[Kwon Ku Sang record and portfolio]]></description><link>https://rnjsrntkd95.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 15 Jan 2020 05:10:35 GMT</lastBuildDate><item><title><![CDATA[[WEB] Request와 Response 객체]]></title><description><![CDATA[Request & Response Request는 요청, Response…]]></description><link>https://rnjsrntkd95.github.io/django/request와-response/</link><guid isPermaLink="false">https://rnjsrntkd95.github.io/django/request와-response/</guid><pubDate>Wed, 15 Jan 2020 12:01:28 GMT</pubDate><content:encoded>&lt;h2 id=&quot;request--response&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#request--response&quot; aria-label=&quot;request  response permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Request &amp;#x26; Response&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KUSG.io]]></title><description><![CDATA[Kwon Ku Sang record and portfolio]]></description><link>https://rnjsrntkd95.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 15 Jan 2020 15:43:18 GMT</lastBuildDate><item><title><![CDATA[MTV pattern에 따른 개발]]></title><description><![CDATA[Django 프레임워크에선 웹 개발시에 MTV…]]></description><link>https://rnjsrntkd95.github.io/django/django-mtv-pattern/</link><guid isPermaLink="false">https://rnjsrntkd95.github.io/django/django-mtv-pattern/</guid><pubDate>Wed, 15 Jan 2020 16:02:11 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 48.728813559322035%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABJ0AAASdAHeZh94AAACJ0lEQVQoz32S7UvTURTHr7qn5lxKuvakW3v8bdNqKs6VE+nRB5JyPSBjoogKhggVvohe9U/Uq17Yi/CJUQ4far2XCGqt3lUQvhm1XBhukMW3e25tKoIX7j33fu6555x7zmH2sy1wng+iukVCZZMTFX67kNaOZuhafZx7UNXsEkxVX4dDDZYDJxu9dxudw/3oGx9C71gU3SMRBMKdiNwax8T9u4jeuYnBqQmciYah9NXuM1BwUpBMyTcKnxmHG53QnLRB2+hABZf0WMuj1fodgtMsPCo/cQyq/1J93LonckYHgsx2BHLJCGavQanbIJRL3HrOq/9xfl98xJnSYxa6Mo+pGCFNVk7GHDpEJsfwJvUOseU47Dx/xCwhP2YXY0i+T2F4ahIlLj3KuLMRvk9+SOHxwgz0AR/kXhPUBWelkgHSuSB+bm4in8uBxuyzGJhBjYfTj8Q5n8sj+30DEi9e/cVQkdF4wHWYtQoaSgNFyJw6tF3rwe9f23ibTCLzLYO116/AzFosvXyOzx8/YXllFRtfMzgV7kLo+iVg+w9eJBJY/7KOeGIVzFK5Y5DClEsmTM89ER5zW1u4MjoAZtKgZ6gfP7JZwefjT6Hy1oJSNMd/QCOdTqPjRi+Y66jg4su0KHhFZW4jApcvwNbeJPJHRWGOGpHHYF8XFNwp6cm9ZmH49NVu1LX5QT9UN1h3irKn5PyyzGMstgJ5lfEz8X0NzBlVeHfbkPwLpSZw/k5tguUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;MTVpattern&quot;
+        title=&quot;MTVpattern&quot;
+        src=&quot;/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/799d3/MTVpattern.png&quot;
+        srcset=&quot;/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/00d96/MTVpattern.png 148w,
+/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/0b23c/MTVpattern.png 295w,
+/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/799d3/MTVpattern.png 590w,
+/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/2a3d6/MTVpattern.png 885w,
+/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/ae92f/MTVpattern.png 1180w,
+/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/ae347/MTVpattern.png 1416w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Django 프레임워크에선 웹 개발시에 MTV 패턴을 사용하여 설계한다.
+처음엔 위와 같은 모듈의 분할과 방식의 필요성에 대해 의문이 들었다. &lt;/p&gt;
+&lt;h2 id=&quot;모듈화&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AA%A8%EB%93%88%ED%99%94&quot; aria-label=&quot;모듈화 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;모듈화&lt;/h2&gt;
+&lt;p&gt;프로그래밍에 관심을 갖다보니 &lt;strong&gt;모듈화&lt;/strong&gt;, &lt;strong&gt;캡슐화&lt;/strong&gt;의 중요성에 대해 끊임 없이 들었다. 프로그래밍은 한 두개의 파일들만 사용하여 실행되는 것이 아니기 때문에 &lt;strong&gt;구현하고자 하는 프로그램 코드를 기능별로 적절히 나눠서 파일로 저장하는 것&lt;/strong&gt;을 모듈화라고 한다. 모듈화를 하게 되면 파일들끼리 주고받는 영향을 최소화 시켜서 관리하기 쉽고 협업을 할 때도 효율적으로 사용할 수 있다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;사람도 자신의 일이 아닌 것을 계속 시키면 불평하지 않는가!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;Django에서도 MTV 패턴을 사용함으로서 모듈 간에 독립성을 유지할 수 있다. 때문에 서로에게 주는 영향을 최대한 감소시키고 디자인, 개발, DB를 따로 관리할 수 있게 된다. 이것으로 MTV 패턴의 필요성을 충분히 이해할 수 있었다.&lt;/p&gt;
+&lt;p&gt;이제 각각의 MTV를 자세히 살펴보려고 한다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 52.130325814536334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABJ0AAASdAHeZh94AAACNklEQVQoz3VTXUySURg+kFqR1kAIEoMPhE+QlPpE0MYERCw1ox+saUZmq/WzVau8cNVNszW7aKsurDVLNplZVrK1tm5b66pca2v9jXu7qK77fTrvEZhz9W3v3nPO9573fZ/3eQ5bts6C5bVWLPYLTVMnQV29BsyqBXMaC3H/imV0SBdK19uxwmsThyU1lShyV3AzY6lnLViVAd7OMCZnptGWTEAlG8WdxQ3QmtEPxgNYZRmYvVwkMG2shT3SAGuoHuagF9p6GaOpMdA3lXkoCpRtqCo0QD6/ZgShcfsm3Ji4g4HB41DLJugaXFDiMUSTO+HtikDnq4bUrOD8yDDqOkIc9mpeXC8Sl+QQMFs5imvMYI6IH9lsFr++/8Cfn79xYPAEjI0eWEKKgKDiBZhNh6ZEO6YePUB7/25oFRmZp08wfP0K1E4TRkavYvpxBsaAB6z76H58+vARE+k0Xr2cxfi9SUhhH5p74wj3bkNb/y44owFcu31TQE7dv4vWPTvE+u279wh2b8Hc3GexD/fEwQw+F569eC4Ovn35KoIJjr3FD/fmIORYE/R+N3R8jkOXLsDREkCRqwJHzp5B50CP6H7rwT4cGjo1TwrJgVrtO3kYSlcUKuc8g8TyEn6xmDNOZMX2JjD75jWSp4/xOeVm6DCIWPKUuMCyGKakFWzTPi8FDTdik1lW4dzliwLFrXRKJFiZY5liyZfmWRY6zFEvtEWCXaCrvC71nPl9vDuJS4m61/znEfwFCc9dcXIRKGkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;MTVpattern&quot;
+        title=&quot;MTVpattern&quot;
+        src=&quot;/static/fb42bed282e22f9596d8366b12a265a9/799d3/MTVpattern2.png&quot;
+        srcset=&quot;/static/fb42bed282e22f9596d8366b12a265a9/00d96/MTVpattern2.png 148w,
+/static/fb42bed282e22f9596d8366b12a265a9/0b23c/MTVpattern2.png 295w,
+/static/fb42bed282e22f9596d8366b12a265a9/799d3/MTVpattern2.png 590w,
+/static/fb42bed282e22f9596d8366b12a265a9/fecec/MTVpattern2.png 798w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;앞의 글에서 &lt;a href=&quot;https://rnjsrntkd95.github.io/django/request-response/&quot;&gt;[WEB]Request, Response&lt;/a&gt;를 알아보았다. 클라이언트가 보낸 Request에 대해 서버는 Response를 보내야한다. MTV패턴은 해당 Response를 생성할 때 적용된다. &lt;strong&gt;Model&lt;/strong&gt;은 데이터베이스로부터 데이터를 가져오거나 저장, 수정하는 기능을 하고, &lt;strong&gt;Template&lt;/strong&gt;은 Response의 양식이 담긴 페이지를 만들어주는 기능을 한다. &lt;strong&gt;View&lt;/strong&gt;는 Model에서 가져운 데이터를 적절하게 변환하여 Template에게 전달하는 기능을 한다. Model과 Template를 연결해준다고 생각할 수 있다. &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;MTV 패턴의 적용 예시를 생각해보았다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;네이버의 서버로 클라이언트가 입력한 ‘장고’의 Request 객체가 전달될 것이다.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;서버는 이 Request 객체에 대한 Response 객체를 만든다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Model이 DB로부터 ‘장고’를 검색한 결과 데이터를 가져온다.&lt;/li&gt;
+&lt;li&gt;Template은 검색 결과를 보여줄 양식 페이지를 만들어준다.&lt;/li&gt;
+&lt;li&gt;View는 Model의 데이터를 Template의 양식 페이지에 맞게 변환하여 대입한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;서버는 클라이언트에게 Response 객체를 전달한다.  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[[WEB] Request와 Response]]></title><description><![CDATA[Request & Response Request는 요청, Response…]]></description><link>https://rnjsrntkd95.github.io/django/request-response/</link><guid isPermaLink="false">https://rnjsrntkd95.github.io/django/request-response/</guid><pubDate>Wed, 15 Jan 2020 12:01:28 GMT</pubDate><content:encoded>&lt;h2 id=&quot;request--response&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#request--response&quot; aria-label=&quot;request  response permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Request &amp;#x26; Response&lt;/h2&gt;
 &lt;p&gt;Request는 요청, Response는 응답이라는 뜻이다. 단어의 뜻만 들어서는 웹에서 요청과 응답이 어떻게 흘러가지 아직은 알 길이 없다. 실생활에서 예를 찾아보았다.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;펭수와 펭수친구인 물개가 있다고 하자. 펭수가 검지손가락으로 물개의 허리를 찔렀다. 그러자 물개는 “물개!” 하며 꼬리를 튕겨 펭수의 뺨을 쳤다. &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;여기서도 Request와 Response를 확인할 수 있다. 펭수가 손가락으로 찌르면서 물개에게 Request를 보냈다. 물개는 펭수의 Request를 받아 그에 맞는 Response인 꼬리를 튕겼다.&lt;/p&gt;
-&lt;p&gt;이러한 과정이 웹에서 빈번하게 발생한다. 클라이언트가 홈페이지의 ‘회원가입’ 버튼을 눌러 Request를 보낸다. 그러면 서버는 회원가입에 필요한 양식이 담긴 페이지의 주소(URL)를 Response로 보내온다. 이렇게 Request &amp;#x26; Response를 쉽게 이해해보았다.&lt;/p&gt;
+&lt;p&gt;이러한 과정이 웹에서 빈번하게 발생한다. 클라이언트가 홈페이지의 ‘회원가입’ 버튼을 눌러 Request를 보낸다. 그러면 서버는 회원가입에 필요한 양식이 담긴 페이지의 주소(URL)를 Response로 보내온다. 이렇듯 Request &amp;#x26; Response를 쉽게 이해해볼 수 있겠다.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
@@ -77,7 +150,7 @@ Python과 Django를 주로 다루며, 프로젝트 중심의 경험을 쌓는 �
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&quot;span-styletext-shadow-2px-2px-0-6fd1bdexperiencespan&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#span-styletext-shadow-2px-2px-0-6fd1bdexperiencespan&quot; aria-label=&quot;span styletext shadow 2px 2px 0 6fd1bdexperiencespan permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;span style=&quot;text-shadow: 2px 2px 0 #6fd1bd;&quot;&gt;Experience&lt;/span&gt;&lt;/h1&gt;</content:encoded></item><item><title><![CDATA[[1로 만들기] 다이나믹 프로그래밍을 해보자]]></title><description><![CDATA[Baekjoon 1463번 문제 - 1로 만들기 문제는 되게 간단하다.  X가 3으로 나누어 떨어지면, 3으로 나눈다. X가 2로 나누어 떨어지면, 2로 나눈다. 1을 뺀다. 정수 N이 주어졌을 때, 위와 같은 연산 세 개를 적절히 사용해서…]]></description><link>https://rnjsrntkd95.github.io/python/make_number_1/</link><guid isPermaLink="false">https://rnjsrntkd95.github.io/python/make_number_1/</guid><pubDate>Sat, 11 Jan 2020 15:01:27 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;h1 id=&quot;span-styletext-shadow-2px-2px-0-6fd1bdexperiencespan&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#span-styletext-shadow-2px-2px-0-6fd1bdexperiencespan&quot; aria-label=&quot;span styletext shadow 2px 2px 0 6fd1bdexperiencespan permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;span style=&quot;text-shadow: 2px 2px 0 #6fd1bd;&quot;&gt;Experience&lt;/span&gt;&lt;/h1&gt;</content:encoded></item><item><title><![CDATA[[1로 만들기] 다이나믹 프로그래밍을 해보자]]></title><description><![CDATA[Baekjoon 1463번 문제 - 1로 만들기 문제는 되게 간단하다.  X가 3으로 나누어 떨어지면, 3으로 나눈다. X가 2로 나누어 떨어지면, 2로 나눈다. 1을 뺀다. 정수 N이 주어졌을 때, 위와 같은 연산 세 개를 적절히 사용해서…]]></description><link>https://rnjsrntkd95.github.io/python/make-number-1/</link><guid isPermaLink="false">https://rnjsrntkd95.github.io/python/make-number-1/</guid><pubDate>Sat, 11 Jan 2020 15:01:27 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.acmicpc.net/problem/1463&quot;&gt;Baekjoon 1463번 문제 - 1로 만들기&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;문제는 되게 간단하다. &lt;/p&gt;
