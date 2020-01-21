@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KUSG.io]]></title><description><![CDATA[Kwon Ku Sang record and portfolio]]></description><link>https://rnjsrntkd95.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 15 Jan 2020 15:43:18 GMT</lastBuildDate><item><title><![CDATA[MTV pattern에 따른 개발]]></title><description><![CDATA[Django 프레임워크에선 웹 개발시에 MTV…]]></description><link>https://rnjsrntkd95.github.io/django/django-mtv-pattern/</link><guid isPermaLink="false">https://rnjsrntkd95.github.io/django/django-mtv-pattern/</guid><pubDate>Wed, 15 Jan 2020 16:02:11 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KUSG.io]]></title><description><![CDATA[Kwon Ku Sang record and portfolio]]></description><link>https://rnjsrntkd95.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 21 Jan 2020 02:37:24 GMT</lastBuildDate><item><title><![CDATA[HTTP와 GET / POST]]></title><description><![CDATA[HTTP(Hypertext Transfer Protocol)는 하나의 통신 프로토콜이다. 정의한 규칙을 토대로 데이터를 주고 받기 위해 사용된다. 웹에서는 브라우저와 서버가 HTTP 프로토콜을 사용하여 데이터를 주고 받게 된다. HTTP method…]]></description><link>https://rnjsrntkd95.github.io/django/get-post/</link><guid isPermaLink="false">https://rnjsrntkd95.github.io/django/get-post/</guid><pubDate>Tue, 21 Jan 2020 09:02:27 GMT</pubDate><content:encoded>&lt;p&gt;HTTP(Hypertext Transfer Protocol)는 하나의 통신 프로토콜이다. 정의한 규칙을 토대로 데이터를 주고 받기 위해 사용된다. 웹에서는 브라우저와 서버가 HTTP 프로토콜을 사용하여 데이터를 주고 받게 된다.&lt;/p&gt;
+&lt;h2 id=&quot;http-method란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#http-method%EB%9E%80&quot; aria-label=&quot;http method란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTTP method란?&lt;/h2&gt;
+&lt;p&gt;클라이언트가 서버에게 Request를 보낼 때 사용자 요청의 목적/종류를 알리는 수단이다. method는 GET, POST, PUT, DELETE, … 있지만 주로 사용하는 &lt;strong&gt;GET&lt;/strong&gt;과 &lt;strong&gt;POST&lt;/strong&gt;에 대해서 정리해보겠다.&lt;/p&gt;
+&lt;p&gt;먼저 HTTP request 메시지의 구조를 살펴보자.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;HTTP Request message format&lt;/strong&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60.42183622828784%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABJ0AAASdAHeZh94AAAB9UlEQVQoz5VTa2+jMBDk//+vqlWbplWqtFGapyE8EwPBEAiPuVnnjp4U3YezNLK92MPsztrJ8xxJkiMIUqRpDtdVnLWNua5GWRocDh6OxyNOp4LnMmgt5wMLnWVotUbjeah3Ozie5+P5WeHhYYvlMsBkMsVup/D9HeHtbcvLKZ6eJlivt5jNFNdrfg+5X2FPgoRk1Xxu0aYpnMMhxudnjK+vyGKxOGI+j7FaRYgiD56nSZQgjjNsNkuqVQjDAH3fYwDQGYOuKPBnOFEUoaoqFIVheiWM+ZnP58KuJW3ZF7wo55LkaAllDF1nU63Xa1x9H04cx/jfkSQJOhJZQhKX7+8oX1/RXy5wxBSGMQzdCKC3c9M0VHLbd12Ltu2sMlE6Krxe0Z3PVqlNebs94OXFJRSmU0VT9oTCx4dizVYsfoDHxx2UChibsc4L+ExtGAZLIKp6lsWSM+YEQUgD9rzssvAaeV6ybQyyzEDUF0VJp6WGJWOZjdV1Pabfcy0qR8IwDOlmwLrEPJzRoNKiaSriwsuVXYsxYt7NpPKOeHT5dDrZhRRZ0LathdYVFRs2syi7/K7hDVI/cV0U27usofSgVfgvl32/wn5v2IdCfK9E1Gk2tYyGL6bebG6E0gLypzRNR8jemJypne1cFPndd3mKovLvIYS/AEaXk59qnDd9AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;httprequest&quot;
+        title=&quot;httprequest&quot;
+        src=&quot;/static/4e0edf1cd908643c640fe40d40e75735/799d3/httprequest.png&quot;
+        srcset=&quot;/static/4e0edf1cd908643c640fe40d40e75735/00d96/httprequest.png 148w,
+/static/4e0edf1cd908643c640fe40d40e75735/0b23c/httprequest.png 295w,
+/static/4e0edf1cd908643c640fe40d40e75735/799d3/httprequest.png 590w,
+/static/4e0edf1cd908643c640fe40d40e75735/797f9/httprequest.png 806w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;request 메시지 구조는 크게 &lt;U&gt;&lt;strong&gt;헤더(Header)&lt;/strong&gt;&lt;/U&gt;와 &lt;U&gt;&lt;strong&gt;바디(Body)&lt;/strong&gt;&lt;/U&gt;로 나뉘어진다. 헤더에는 클라이언트 정보가 담기고 이것을 메타정보라고 한다. 바디에는 요청에 대한 요청에 대한 정보가 담기고 보통은 비어있다.&lt;/p&gt;
+&lt;p&gt;주목해야할 부분은 헤더 첫 줄의 request line이다. method 파트에 GET 또는 POST 등이 표현되고 공백을 두고 URL, HTTP version이 표현된다. 마지막엔 cr(carriage return), lf(line feed)를 두었고 줄바꿈(\r\n)을 의미한다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;quot;GET /shop/index.html HTTP/1.1&amp;quot;&lt;/code&gt;  &lt;/p&gt;
+&lt;p&gt;우리는 위와 같은 메시지를 보고 클라이언트가 HTTP 1.1버전을 사용해서 GET방식으로 요청을 보냈다는 것을 알아낼 수 있다.&lt;/p&gt;
+&lt;h2 id=&quot;get&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#get&quot; aria-label=&quot;get permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GET&lt;/h2&gt;
+&lt;p&gt;GET 메소드는 서버에게 리소스를 보내도록 요청하는데 사용된다.
+특이한 점은 데이터를 바디가 아닌 헤더의 &lt;strong&gt;URL에 붙여서 전송&lt;/strong&gt;한다는 점이다. &lt;/p&gt;
+&lt;p&gt;평소에 URL을 보다보면 ? 뒤에 이것저것이 적혀있는 것을 본적이 있을 것이다. 이것은 Query String의 형식으로 데이터를 ? 연산자 뒤에 변수와 값을 넣어서 보내는 형식이다. 값이 URL에 담기기 때문에 우리가 보고 있는 화면의 정보를 모두 담아 쉽게 공유할 수 있다. 하지만 눈에 쉽게 보이다 보니 보안에 취약하다고 볼 수 있다. &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;만약 로그인을 하는데 GET 방식을 사용하고 있다면 우리가 입력한 ID와 PASSWORD가 URL에 노출될 것이다&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;post&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#post&quot; aria-label=&quot;post permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;POST&lt;/h2&gt;
+&lt;p&gt;POST 메소드는 HTTP의 바디에 데이터를 넣어 전송한다.
+GET과는 다르게 요청내용을 바디에 저장하기 때문에 데이터가 노출되지 않는다. 주로 HTML form 형태로 입력을 받아 POST 방식으로 전송하게 된다. 또한 데이터의 길이가 길 경우 URL에 담기에는 무리가 있고 제한이 있기 때문에 길이에 제한이 없는 바디에 담아 전송한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[MTV pattern에 따른 개발]]></title><description><![CDATA[Django 프레임워크에선 웹 개발시에 MTV…]]></description><link>https://rnjsrntkd95.github.io/django/django-mtv-pattern/</link><guid isPermaLink="false">https://rnjsrntkd95.github.io/django/django-mtv-pattern/</guid><pubDate>Wed, 15 Jan 2020 16:02:11 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
     &gt;
@@ -71,8 +113,7 @@
 &lt;li&gt;서버는 클라이언트에게 Response 객체를 전달한다.  &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[[WEB] Request와 Response]]></title><description><![CDATA[Request & Response Request는 요청, Response…]]></description><link>https://rnjsrntkd95.github.io/django/request-response/</link><guid isPermaLink="false">https://rnjsrntkd95.github.io/django/request-response/</guid><pubDate>Wed, 15 Jan 2020 12:01:28 GMT</pubDate><content:encoded>&lt;h2 id=&quot;request--response&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#request--response&quot; aria-label=&quot;request  response permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Request &amp;#x26; Response&lt;/h2&gt;
-&lt;p&gt;Request는 요청, Response는 응답이라는 뜻이다. 단어의 뜻만 들어서는 웹에서 요청과 응답이 어떻게 흘러가지 아직은 알 길이 없다. 실생활에서 예를 찾아보았다.&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[[WEB] Request & Response]]></title><description><![CDATA[Request는 요청, Response…]]></description><link>https://rnjsrntkd95.github.io/django/request-response/</link><guid isPermaLink="false">https://rnjsrntkd95.github.io/django/request-response/</guid><pubDate>Wed, 15 Jan 2020 12:01:28 GMT</pubDate><content:encoded>&lt;p&gt;Request는 요청, Response는 응답이라는 뜻이다. 단어의 뜻만 들어서는 웹에서 요청과 응답이 어떻게 흘러가지 아직은 알 길이 없다. 실생활에서 예를 찾아보았다.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;펭수와 펭수친구인 물개가 있다고 하자. 펭수가 검지손가락으로 물개의 허리를 찔렀다. 그러자 물개는 “물개!” 하며 꼬리를 튕겨 펭수의 뺨을 쳤다. &lt;/p&gt;
 &lt;/blockquote&gt;
