@@ -1,7 +1,7 @@
 ---
 title: "[1로 만들기] 다이나믹 프로그래밍을 해보자"
 date: 2020-01-11 15:01:27
-category: algorithm
+category: python
 draft: false
 ---
 
@@ -17,8 +17,7 @@ draft: false
 ## 깊이 우선 탐색(DFS), 너비 우선 탐색(BFS)
 처음 문제를 접했을 때 재귀방식의 DFS, BFS가 떠올랐다. 그래서 무작정 코드를 다음과 같이 작성해보았다.
 
-```
-# 파이썬을 이제 막 배운 초심자로서 코드가 복잡하고 파이썬 답지 않을 수 있다.
+```python
 def make_one(n):
     min_count = 1000000
     if n == 1:
@@ -65,7 +64,7 @@ print(make_one(quest))
 
 **초기값**을 정하고 **점화식**을 찾아낸 후 밑에서부터 차례로 구해나가 답을 알아내는 형태이다.
 
-```
+```python
 def dynamic(n):
     storage = [0, 0, 1, 1]
     for up in range(4, n+1):
