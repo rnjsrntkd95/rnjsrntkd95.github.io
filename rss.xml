@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KUSG.io]]></title><description><![CDATA[Kwon Ku Sang record and portfolio]]></description><link>https://rnjsrntkd95.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 02 Feb 2020 11:54:49 GMT</lastBuildDate><item><title><![CDATA[CRUD]]></title><description><![CDATA[웹을 배워가면서 많이 들렸던 단어들 중 하나가 CRUD이다. Django뿐만 아니라 앞으로 프로젝트를 진행하면서 반드시 개념을 제대로 잡고 있어야 할 것 같아 정리해보려고 한다.  CRUD는 데이터 처리의 기본 기능을 뜻한다. Create…]]></description><link>https://rnjsrntkd95.github.io/django/crud/</link><guid isPermaLink="false">https://rnjsrntkd95.github.io/django/crud/</guid><pubDate>Sun, 02 Feb 2020 19:03:05 GMT</pubDate><content:encoded>&lt;p&gt;웹을 배워가면서 많이 들렸던 단어들 중 하나가 CRUD이다. Django뿐만 아니라 앞으로 프로젝트를 진행하면서 반드시 개념을 제대로 잡고 있어야 할 것 같아 정리해보려고 한다. &lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KUSG.io]]></title><description><![CDATA[Kwon Ku Sang record and portfolio]]></description><link>https://rnjsrntkd95.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 02 May 2021 04:10:38 GMT</lastBuildDate><item><title><![CDATA[CRUD]]></title><description><![CDATA[웹을 배워가면서 많이 들렸던 단어들 중 하나가 CRUD이다. Django뿐만 아니라 앞으로 프로젝트를 진행하면서 반드시 개념을 제대로 잡고 있어야 할 것 같아 정리해보려고 한다. CRUD는 데이터 처리의 기본 기능을 뜻한다. Create 생성 Read…]]></description><link>https://rnjsrntkd95.github.io/django/crud/</link><guid isPermaLink="false">https://rnjsrntkd95.github.io/django/crud/</guid><pubDate>Sun, 02 May 2021 12:05:01 GMT</pubDate><content:encoded>&lt;p&gt;웹을 배워가면서 많이 들렸던 단어들 중 하나가 CRUD이다. Django뿐만 아니라 앞으로 프로젝트를 진행하면서 반드시 개념을 제대로 잡고 있어야 할 것 같아 정리해보려고 한다.&lt;/p&gt;
 &lt;p&gt;CRUD는 데이터 처리의 기본 기능을 뜻한다.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;C&lt;/strong&gt;reate 생성&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;R&lt;/strong&gt;ead 읽기&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;U&lt;/strong&gt;pdate 수정&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;D&lt;/strong&gt;elete 삭제&lt;/li&gt;
+&lt;li&gt;Create 생성&lt;/li&gt;
+&lt;li&gt;Read 읽기&lt;/li&gt;
+&lt;li&gt;Update 수정&lt;/li&gt;
+&lt;li&gt;Delete 삭제&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;우리는 이 4가지를 쿼리 형식으로 데이터베이스에 적용하여 원하는 데이터를 가져오고 활용한다.&lt;/p&gt;
 &lt;h1 id=&quot;1-create-생성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-create-%EC%83%9D%EC%84%B1&quot; aria-label=&quot;1 create 생성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Create 생성&lt;/h1&gt;
-&lt;p&gt;데이터의 생성은 SQL문법 중 INSERT 명령어로 실행된다.&lt;/p&gt;
+&lt;p&gt;데이터의 생성은 SQL문법 중 INSERT 명령어로 실행된다..&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sql&quot;&gt;&lt;pre class=&quot;language-sql&quot;&gt;&lt;code class=&quot;language-sql&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;--- INSERT문의 기초 문법&lt;/span&gt;
 &lt;span class=&quot;token comment&quot;&gt;--- []는 생략 가능&lt;/span&gt;
 
@@ -36,7 +36,7 @@
 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;GROUP&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;BY&lt;/span&gt; 속성이름&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;  
 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;HAVING&lt;/span&gt; 검색조건&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;  
 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;ORDER&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;BY&lt;/span&gt; 속성이름 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;ASC&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;DESC&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;사용자가 원하는 데이터를 DB에서 가져오고 싶으면 SELECT 명령어를 사용해서 가져올 수 있다. &lt;/p&gt;
+&lt;p&gt;사용자가 원하는 데이터를 DB에서 가져오고 싶으면 SELECT 명령어를 사용해서 가져올 수 있다.&lt;/p&gt;
 &lt;p&gt;만약 사원(emp) 테이블에 속해있는 모든 사원의 이름(ename)과 직책(job)을 가져오고 싶다면 다음과 같이 작성한다.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sql&quot;&gt;&lt;pre class=&quot;language-sql&quot;&gt;&lt;code class=&quot;language-sql&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;SELECT&lt;/span&gt; ename&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; job  
 &lt;span class=&quot;token keyword&quot;&gt;FROM&lt;/span&gt; emp&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -52,9 +52,8 @@
 &lt;span class=&quot;token keyword&quot;&gt;UPDATE&lt;/span&gt; 테이블이름
 &lt;span class=&quot;token keyword&quot;&gt;SET&lt;/span&gt; 속성명&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; 값&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 속성명&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; 값&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;WHERE&lt;/span&gt; 조건문&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;WHERE 절을 생략할 수도 있지만, &lt;strong&gt;이 경우 모든 행을 일괄적으로 갱신하므로 주의해야 한다.&lt;/strong&gt; 보통 WHERE절을 사용하여 특정 속성값을 수정한다.&lt;/p&gt;
-&lt;p&gt;사원(emp)들 중 사원번호(empno)가 9001인 사원을 찾아 직책(job)을 ‘CEO’
-로 수정해주려 한다.&lt;/p&gt;
+&lt;p&gt;WHERE 절을 생략할 수도 있지만, 이 경우 모든 행을 일괄적으로 갱신하므로 주의해야 한다. 보통 WHERE절을 사용하여 특정 속성값을 수정한다.&lt;/p&gt;
+&lt;p&gt;사원(emp)들 중 사원번호(empno)가 9001인 사원을 찾아 직책(job)을 ‘CEO’ 로 수정해주려 한다.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sql&quot;&gt;&lt;pre class=&quot;language-sql&quot;&gt;&lt;code class=&quot;language-sql&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;UPDATE&lt;/span&gt; emp
 &lt;span class=&quot;token keyword&quot;&gt;SET&lt;/span&gt; job &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;CEO&apos;&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;WHERE&lt;/span&gt; empno &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;9001&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -69,19 +68,17 @@
 &lt;p&gt;사원(emp) 테이블의 사원번호가 9002인 사원에 대한 정보를 삭제하려 한다.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sql&quot;&gt;&lt;pre class=&quot;language-sql&quot;&gt;&lt;code class=&quot;language-sql&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;DELETE&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;FROM&lt;/span&gt; emp
 &lt;span class=&quot;token keyword&quot;&gt;WHERE&lt;/span&gt; empno &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;9002&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;blockquote&gt;
-&lt;p&gt;데이터를 정확하게 사용하기 위해선 CRUD와 같은 개념들을 확실히 짚고 넘어가는 것이 좋겠다!&lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Model Relationships 이해]]></title><description><![CDATA[Django 모델을 공부하던 도중 모델들 간의 관계를 정의하는 과정에서 헷갈리는 부분이 있었다. 이번 기회에 데이터베이스 구성과 함께 정리해보려 한다. 모델에 작성자 클래스와 게시글 클래스를 정의하게 되면 작성자 테이블과 게시글 테이블이 DB…]]></description><link>https://rnjsrntkd95.github.io/django/model-relationships/</link><guid isPermaLink="false">https://rnjsrntkd95.github.io/django/model-relationships/</guid><pubDate>Sat, 25 Jan 2020 12:01:27 GMT</pubDate><content:encoded>&lt;p&gt;Django 모델을 공부하던 도중 모델들 간의 관계를 정의하는 과정에서 헷갈리는 부분이 있었다. 이번 기회에 데이터베이스 구성과 함께 정리해보려 한다.&lt;/p&gt;
-&lt;p&gt;모델에 작성자 클래스와 게시글 클래스를 정의하게 되면 작성자 테이블과 게시글 테이블이 DB에 정의된다. 여기서 ‘펭수’가 게시글을 하나 작성했다고 하자. 작성자 테이블에는 ‘펭수’에 대한 정보만 존재하고 게시글 테이블에는 게시글에 대한 정보만 담겨있기 때문에 어떤 게시글이 ‘펭수’가 작성한 게시글인지 알 수 없다. 이것을 표시하기 위한 것이 &lt;strong&gt;관계(Relationship)&lt;/strong&gt;이다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;데이터를 정확하게 사용하기 위해선 CRUD와 같은 개념들을 확실히 짚고 넘어가는 것이 좋겠다!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Model Relationships 이해]]></title><description><![CDATA[Django 모델을 공부하던 도중 모델들 간의 관계를 정의하는 과정에서 헷갈리는 부분이 있었다. 이번 기회에 데이터베이스 구성과 함께 정리해보려 한다. 모델에 작성자 클래스와 게시글 클래스를 정의하게 되면 작성자 테이블과 게시글 테이블이 DB…]]></description><link>https://rnjsrntkd95.github.io/django/model-relationships/</link><guid isPermaLink="false">https://rnjsrntkd95.github.io/django/model-relationships/</guid><pubDate>Sat, 25 Jan 2020 12:01:27 GMT</pubDate><content:encoded>&lt;p&gt;Django 모델을 공부하던 도중 모델들 간의 관계를 정의하는 과정에서 헷갈리는 부분이 있었다. 이번 기회에 데이터베이스 구성과 함께 정리해보려 한다.&lt;/p&gt;
+&lt;p&gt;모델에 작성자 클래스와 게시글 클래스를 정의하게 되면 작성자 테이블과 게시글 테이블이 DB에 정의된다. 여기서 ‘펭수’가 게시글을 하나 작성했다고 하자. 작성자 테이블에는 ‘펭수’에 대한 정보만 존재하고 게시글 테이블에는 게시글에 대한 정보만 담겨있기 때문에 어떤 게시글이 ‘펭수’가 작성한 게시글인지 알 수 없다. 이것을 표시하기 위한 것이 관계(Relationship)이다.&lt;/p&gt;
 &lt;p&gt;먼저 장고의 모델들 간의 관계는 3가지로 구분된다.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;OneToOneField&lt;/strong&gt; - 일대일[1:1] 관계  &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ForeignKey&lt;/strong&gt; - 일대다[1:N] 관계  &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ManyToManyField&lt;/strong&gt; - 일대다[N:M] 관계  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OneToOneField&lt;/strong&gt; - 일대일[1:1] 관계&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ForeignKey&lt;/strong&gt; - 일대다[1:N] 관계&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ManyToManyField&lt;/strong&gt; - 일대다[N:M] 관계&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&quot;onetoonefield&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#onetoonefield&quot; aria-label=&quot;onetoonefield permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;OneToOneField&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;한 명의 작성자는 하나의 게시글만 작성할 수 있고, 하나의 게시글은 한 명의 작성자만 갖을 수 있다.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;일대일 관계에선 한쪽의 테이블이 상대 테이블에 대한 키값을 갖는다. 게시글 테이블에서 작성자에 대한 키값을 갖고 있게 되면 이 게시글이 어떤 작성자가 작성한 것인지 확인할 수 있고 그 키값을 가지고 작성자 테이블에서 작성자에 대한 데이터도 찾을 수 있다. 장고에서는 이 키값을 보통 ID(PrimaryKey)로 가져오는 것 같다. &lt;/p&gt;
+&lt;p&gt;일대일 관계에선 한쪽의 테이블이 상대 테이블에 대한 키값을 갖는다. 게시글 테이블에서 작성자에 대한 키값을 갖고 있게 되면 이 게시글이 어떤 작성자가 작성한 것인지 확인할 수 있고 그 키값을 가지고 작성자 테이블에서 작성자에 대한 데이터도 찾을 수 있다. 장고에서는 이 키값을 보통 ID(PrimaryKey)로 가져오는 것 같다.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;PrimaryKey - 테이블에서 데이터를 유일하게 식별할 수 있도록 하는 하나의 속성&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -91,30 +88,30 @@
 &lt;/blockquote&gt;
 &lt;h2 id=&quot;foreignkey&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#foreignkey&quot; aria-label=&quot;foreignkey permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ForeignKey&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;한 명의 작성자는 여러개의 게시글을 작성할 수 있고, 하나의 게시글은 여러명의 작성자를 갖을 수 있다.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;ForeignKey는 테이블끼리 1:N로 매칭한다. OneToOneField와 다른 점은 OneToOneField는 어느 테이블이 키값을 가지고 있어도 상관이 없었다면 일대다 관계인 ForeignKey에선 1:N 중 ‘N’인 테이블에서 키값을 갖게 된다. (‘1’인 테이블에서 키값을 갖게 되면 하나의 속성의 여러개의 ID값을 저장해두어야 하는데 DB에선 다중값 속성은 속성의 원자성에 위배된다.) &lt;/p&gt;
+&lt;p&gt;ForeignKey는 테이블끼리 1:N로 매칭한다. OneToOneField와 다른 점은 OneToOneField는 어느 테이블이 키값을 가지고 있어도 상관이 없었다면 일대다 관계인 ForeignKey에선 1:N 중 ‘N’인 테이블에서 키값을 갖게 된다. (‘1’인 테이블에서 키값을 갖게 되면 하나의 속성의 여러개의 ID값을 저장해두어야 하는데 DB에선 다중값 속성은 속성의 원자성에 위배된다.)&lt;/p&gt;
 &lt;h2 id=&quot;manytomanyfield&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#manytomanyfield&quot; aria-label=&quot;manytomanyfield permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ManyToManyField&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;여러명의 작성자는 여러개의 게시글을 작성할 수 있고, 여러개의 게시글은 여러명의 작성자를 갖을 수 있다.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;이 글을 작성한 이유는 바로 다대다 관계인 ManyToManyfield 때문이였다. 장고에서는 위의 OneToOneField, ForeignKey와 모델값을 정의하는 법은 같기 때문에 N:M만 이해한다면 비슷하다고 생각할 수 있다. 하지만 N:M 관계를 맺을 경우 게시글 테이블 또는 작성자 테이블에서 키값을 가지고 있는 것이 아닌 &lt;strong&gt;게시글의 키값과 작성자의 키값을 갖고 있는 새로운 테이블&lt;/strong&gt;을 만든다. &lt;/p&gt;
+&lt;p&gt;이 글을 작성한 이유는 바로 다대다 관계인 ManyToManyfield 때문이였다. 장고에서는 위의 OneToOneField, ForeignKey와 모델값을 정의하는 법은 같기 때문에 N:M만 이해한다면 비슷하다고 생각할 수 있다. 하지만 N:M 관계를 맺을 경우 게시글 테이블 또는 작성자 테이블에서 키값을 가지고 있는 것이 아닌 게시글의 키값과 작성자의 키값을 갖고 있는 새로운 테이블을 만든다.&lt;/p&gt;
 &lt;p&gt;처음 ManyToManyField를 알게되었을 때에는 장고 모델만 봐서는 새로운 테이블을 만드는 과정이 없고 한쪽의 모델에서 ManyToManyField만 사용하는 것을 보고 패닉이 왔었다. 분명 새로운 테이블을 만들어야 속성의 원자성을 위배하지 않고 DB를 관리할 수 있을 텐데라는 걱정이 있었다. 하지만 장고에서는 migrate라는 과정이 있었다.&lt;/p&gt;
 &lt;p&gt;모델을 migrate하면 모델에 정의된 내용을 데이터베이스의 쿼리문으로 변경해서 연결된 DB에 반영하고 테이블을 만든다. 직접 DB에 들어가서 확인해보니 역시나 새로운 두 테이블에 대한 키값을 가지고 있는 새로운 테이블을 만들었다.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;POST 테이블
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 375px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 375px; &quot;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 18.133333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABJ0AAASdAHeZh94AAAAw0lEQVQY03WM3U6EMBBGef+38sKYuNELgRBgQaxEigIuFNqu/BwLVyZmJznJN2e+jJd/NJzyjgc/595x9xw7UqJKkdQTsbxN+mnIGkv2ZV1XH85T+kqrZsKiJjpnJK8lVdtz0T8MZqE383/0jLIrshsQsqGsO9rBMNgFb9tW9nmrG2QlsPZ67Oz+Btu6HJX+8s05TQiDgGkcD+cpF8w04QtJUpTEUcjj6YlCvKONQSnF6Dp/2d1+E0Lw4gcuW7TW7L9+AamFLgnqnjSEAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 18.243243243243242%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAIAAAABPYjBAAAACXBIWXMAAAsTAAALEwEAmpwYAAAApklEQVQI122KsQ6CMBiE+/4P5WDCgCFRkTAUSqsCFoIlEdq/tLTYzUEu33LfHSKtSCoRXXCUkkN8O54LzGXRqV3IoOnbUGHKHkJF2qyzdrjuK0brTkhtwbhdlnXrhvHecFbzj9TaeuRWu22etn3PGwXgXBDWu/WfcBvFQMoCY6wBNu/QNM9Kzlf2Ktkjz9L4lDybBpSaprD8EioAVIRkeb4YK6UM8gtxWt8ezLE46gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;테이블1&quot;
-        title=&quot;테이블1&quot;
-        src=&quot;/static/9c5c468a4a8a596ad2862c95bada4623/1a013/Post_table1.png&quot;
-        srcset=&quot;/static/9c5c468a4a8a596ad2862c95bada4623/00d96/Post_table1.png 148w,
-/static/9c5c468a4a8a596ad2862c95bada4623/0b23c/Post_table1.png 295w,
-/static/9c5c468a4a8a596ad2862c95bada4623/1a013/Post_table1.png 375w&quot;
+        alt=&quot;Post_table1&quot;
+        title=&quot;Post_table1&quot;
+        src=&quot;/static/66f90d5babb72a7ae900a70dfb000079/5ff7e/Post_table1.png&quot;
+        srcset=&quot;/static/66f90d5babb72a7ae900a70dfb000079/12f09/Post_table1.png 148w,
+/static/66f90d5babb72a7ae900a70dfb000079/e4a3f/Post_table1.png 295w,
+/static/66f90d5babb72a7ae900a70dfb000079/5ff7e/Post_table1.png 375w&quot;
         sizes=&quot;(max-width: 375px) 100vw, 375px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -125,20 +122,20 @@
 &lt;p&gt;COMMENT 테이블
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 374px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 374px; &quot;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 18.983957219251337%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABJ0AAASdAHeZh94AAAA1ElEQVQY01WP22qDUBBF/f//6WMLfUsIlICpbYy3CDlRo2D1XDReVk9NAs3Dgpm992wYR+QXDqeKJAqJ4iNhEPDlebjup91jtNa0bUsrJfLOYzbG0HXdPXPTHNP1KDOQnM6kaUKeZWjZ8lPXKCWZp5FpHJ6x2nDtKauSIs9tWWNz0+I5f+Y8QyBKUiG41Arbjx7mBdmPqH/c9olG9/hxyma74yiK5UZ2I87jjVWYsfoWvK53vLxv+IgKDoVhn0mLesLPNd6p4W3tso1LourK/izxrfcLDuUt+R5GZcAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 18.91891891891892%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAIAAAABPYjBAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAs0lEQVQI102LwQ6CMBBE+f8v8mA8aWLwYAREoUQjsEARgdBupaVFG70weZlk32YcoK8EmltC7o+MxFEYXjzPz7JcCMEY44sgovzFvv7GUZPGUT+ghDztum5SUiBXUs7GLPnMsxrflNICwM7sabR2bKnJRDlNi6rucRCKj8bCRr2ES9MyEZL74RTCs0c1D+/JQc77ge1I6V5hvfdX22OQ9qQWMcUl1gRpu3GDM7BbI6OKW/kF3arehINE0RAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;테이블2&quot;
-        title=&quot;테이블2&quot;
-        src=&quot;/static/a9c5e81b24a1f70d06b71c935d1a1975/66c55/Comment_table1.png&quot;
-        srcset=&quot;/static/a9c5e81b24a1f70d06b71c935d1a1975/00d96/Comment_table1.png 148w,
-/static/a9c5e81b24a1f70d06b71c935d1a1975/0b23c/Comment_table1.png 295w,
-/static/a9c5e81b24a1f70d06b71c935d1a1975/66c55/Comment_table1.png 374w&quot;
+        alt=&quot;Comment_table1&quot;
+        title=&quot;Comment_table1&quot;
+        src=&quot;/static/802e6c0456a4e6b2c1efc096990e5611/52dba/Comment_table1.png&quot;
+        srcset=&quot;/static/802e6c0456a4e6b2c1efc096990e5611/12f09/Comment_table1.png 148w,
+/static/802e6c0456a4e6b2c1efc096990e5611/e4a3f/Comment_table1.png 295w,
+/static/802e6c0456a4e6b2c1efc096990e5611/52dba/Comment_table1.png 374w&quot;
         sizes=&quot;(max-width: 374px) 100vw, 374px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -150,28 +147,28 @@
 &lt;p&gt;새로운 테이블
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 367px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 367px; &quot;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 28.610354223433244%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABJ0AAASdAHeZh94AAABE0lEQVQY022Ri26DMAxF+f+v21ChpWjh/exoyiMhQODOiVSkTbN0lch2bB/HaZ4D8pajzFJUVYUsyxAzhiRJkKQZooihbhqoeYYQAlLKU0opTNP0y+fwUaLuBoRfMRiLkOc5SlJRFMjojKMIXffEuq62wLIsVjM16PsewzBAUNG33wHZqoGkqmnCAvuBf+04jlPGlJqREpXrXvBo2zPHMRi8H+GltcUNwxC+5yMIAtzudzudlMKivSWEBOccjNbx8emiIBKDa2LOrjWkWuDnD8Is7e5S0pO/MFKCQdWUs23bKa1328RMePGuaGnCfd9tzDEXtaxgTWv3l9JH1HWFxeyBzBT7K/uGkE3e9RYQxbfFNbEflpPJE0e7WlgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 28.37837837837838%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAIAAABM9SnKAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA5UlEQVQY002P646DIBBGef+327YraTUiIIKXlWi5qBTdaUxTTsKPb/KROYPacRbd2HAmpeKMVYRQxhjnhJRd1y3L4hIgGmO892dE+unlMBclKUklhJDwmobXgtJq1DqEsH6AHxMwz9bac4KO4/DbzmWjlAiveCTsCe+ad5TRn+vtbxggxhiRc3acnhlv67ou8gJn+JE/7nmhtXb2C0hqPYLf5XJVUoI5DNEeo/FrVvfgSymFs/X0FgPhVwLssdbA5tsvHoYeXKCA9j36dSvbHjYzzlSrthBPqxRoL4uXUmJ8B6mz8A+l6lIXu1ygUAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;새로운테이블&quot;
-        title=&quot;새로운테이블&quot;
-        src=&quot;/static/ed61e9acfffc7485e40652fca766619b/a3a63/comment_post_table.png&quot;
-        srcset=&quot;/static/ed61e9acfffc7485e40652fca766619b/00d96/comment_post_table.png 148w,
-/static/ed61e9acfffc7485e40652fca766619b/0b23c/comment_post_table.png 295w,
-/static/ed61e9acfffc7485e40652fca766619b/a3a63/comment_post_table.png 367w&quot;
+        alt=&quot;comment_post_table&quot;
+        title=&quot;comment_post_table&quot;
+        src=&quot;/static/bde7b39fadae750abb88732948734da0/46684/comment_post_table.png&quot;
+        srcset=&quot;/static/bde7b39fadae750abb88732948734da0/12f09/comment_post_table.png 148w,
+/static/bde7b39fadae750abb88732948734da0/e4a3f/comment_post_table.png 295w,
+/static/bde7b39fadae750abb88732948734da0/46684/comment_post_table.png 367w&quot;
         sizes=&quot;(max-width: 367px) 100vw, 367px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;새로운 테이블이 생성되고 두 테이블에 대한 키값(ID)으로 구성된다. 이렇게 장고에서 한 쪽 Model 클래스에 일방적으로 ManyToManyField를 정의하더라도 쿼리문을 만드는 과정에서 새로운 테이블을 만드는 쿼리문을 센스있게 구성해주는 것 같다. 이로써 모델에서 직접 만들어주지 않아도 편리하게 사용할 수 있다. &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;만약 새로 만들어지는 테이블에 설명속성을 추가하고 싶다면 through라는 파라매터를 공부해보길 바란다!&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[WEB] HTTP와 GET / POST]]></title><description><![CDATA[HTTP(Hypertext Transfer Protocol)는 하나의 통신 프로토콜이다. 정의한 규칙을 토대로 데이터를 주고 받기 위해 사용된다. 웹에서는 브라우저와 서버가 HTTP 프로토콜을 사용하여 데이터를 주고 받게 된다. HTTP method…]]></description><link>https://rnjsrntkd95.github.io/django/get-post/</link><guid isPermaLink="false">https://rnjsrntkd95.github.io/django/get-post/</guid><pubDate>Tue, 21 Jan 2020 09:02:27 GMT</pubDate><content:encoded>&lt;p&gt;HTTP(Hypertext Transfer Protocol)는 하나의 통신 프로토콜이다. 정의한 규칙을 토대로 데이터를 주고 받기 위해 사용된다. 웹에서는 브라우저와 서버가 HTTP 프로토콜을 사용하여 데이터를 주고 받게 된다.&lt;/p&gt;
+&lt;p&gt;새로운 테이블이 생성되고 두 테이블에 대한 키값(ID)으로 구성된다. 이렇게 장고에서 한 쪽 Model 클래스에 일방적으로 ManyToManyField를 정의하더라도 쿼리문을 만드는 과정에서 새로운 테이블을 만드는 쿼리문을 센스있게 구성해주는 것 같다. 이로써 모델에서 직접 만들어주지 않아도 편리하게 사용할 수 있다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;만약 새로 만들어지는 테이블에 설명속성을 추가하고 싶다면 through라는 파라매터를 공부해보길 바란다!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[WEB] HTTP와 GET / POST]]></title><description><![CDATA[HTTP(Hypertext Transfer Protocol)는 하나의 통신 프로토콜이다. 정의한 규칙을 토대로 데이터를 주고 받기 위해 사용된다. 웹에서는 브라우저와 서버가 HTTP 프로토콜을 사용하여 데이터를 주고 받게 된다. HTTP method…]]></description><link>https://rnjsrntkd95.github.io/django/get-post/</link><guid isPermaLink="false">https://rnjsrntkd95.github.io/django/get-post/</guid><pubDate>Tue, 21 Jan 2020 09:02:27 GMT</pubDate><content:encoded>&lt;p&gt;HTTP(Hypertext Transfer Protocol)는 하나의 통신 프로토콜이다. 정의한 규칙을 토대로 데이터를 주고 받기 위해 사용된다. 웹에서는 브라우저와 서버가 HTTP 프로토콜을 사용하여 데이터를 주고 받게 된다.&lt;/p&gt;
 &lt;h2 id=&quot;http-method란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#http-method%EB%9E%80&quot; aria-label=&quot;http method란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTTP method란?&lt;/h2&gt;
 &lt;p&gt;클라이언트가 서버에게 Request를 보낼 때 사용자 요청의 목적/종류를 알리는 수단이다. method는 GET, POST, PUT, DELETE, … 있지만 주로 사용하는 &lt;strong&gt;GET&lt;/strong&gt;과 &lt;strong&gt;POST&lt;/strong&gt;에 대해서 정리해보겠다.&lt;/p&gt;
 &lt;p&gt;먼저 HTTP request 메시지의 구조를 살펴보자.&lt;/p&gt;
@@ -179,21 +176,21 @@
 &lt;p&gt;&lt;strong&gt;HTTP Request message format&lt;/strong&gt;
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 60.42183622828784%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABJ0AAASdAHeZh94AAAB9UlEQVQoz5VTa2+jMBDk//+vqlWbplWqtFGapyE8EwPBEAiPuVnnjp4U3YezNLK92MPsztrJ8xxJkiMIUqRpDtdVnLWNua5GWRocDh6OxyNOp4LnMmgt5wMLnWVotUbjeah3Ozie5+P5WeHhYYvlMsBkMsVup/D9HeHtbcvLKZ6eJlivt5jNFNdrfg+5X2FPgoRk1Xxu0aYpnMMhxudnjK+vyGKxOGI+j7FaRYgiD56nSZQgjjNsNkuqVQjDAH3fYwDQGYOuKPBnOFEUoaoqFIVheiWM+ZnP58KuJW3ZF7wo55LkaAllDF1nU63Xa1x9H04cx/jfkSQJOhJZQhKX7+8oX1/RXy5wxBSGMQzdCKC3c9M0VHLbd12Ltu2sMlE6Krxe0Z3PVqlNebs94OXFJRSmU0VT9oTCx4dizVYsfoDHxx2UChibsc4L+ExtGAZLIKp6lsWSM+YEQUgD9rzssvAaeV6ybQyyzEDUF0VJp6WGJWOZjdV1Pabfcy0qR8IwDOlmwLrEPJzRoNKiaSriwsuVXYsxYt7NpPKOeHT5dDrZhRRZ0LathdYVFRs2syi7/K7hDVI/cV0U27usofSgVfgvl32/wn5v2IdCfK9E1Gk2tYyGL6bebG6E0gLypzRNR8jemJypne1cFPndd3mKovLvIYS/AEaXk59qnDd9AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 60.13513513513513%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABJ0AAASdAHeZh94AAAB6klEQVQoz5VT127jQAzU/39XgBQktgEnjqHEJaor25JVV5JV5oarS7nkXkKAJrWFOzOkrTRNcTplCMMzkiSD73uI45NZc90YZVkgCHwcj0fuF1BqOqeU4p0QCe939EsQoHUcWL4f4OHBxdXVDratMJvNsdvtsd0ecX+/RZpmuLub4eXlFU9PPq6vN9yPsN28Mu5wiGPo9RrVYoGOOQtGWK0iHlYmrlZH5hGLR0TgEnGMxSJCFKXYbGyifuN6gK7rMIwjurJEn2V4N0tgV5VGnheMJSl+ep7n/6zJd1GUlOOEoe+nCizaui4aohXaVsCf35ro2V0uUz26Xi5R3t6i56OWNGWy4YdfeGkYenNNYt8PBDQSZcF8QjiSulAe/z5g7fceG+GxAQ7mc5cNeuO3g+XSZWNEeIWbmz0cR1HbRzw/r+F5Hh8YJhhNY5BN7EehHLKDjnGlYo6EaJSbERH0eV6SYm5ikiQ4n8/QWn/Ql4JD234WlKYoFeJwUMiyFHWt6RXaVtNrNI0mdc3mVKaQuOQZadZ1/UNfSwQWE01kFEQ38TTVRCaotMm/7slZKSxozV0+0JPNB8L/WRjW1K/k3FUm/25SWMbH5FGE2rYxUleDUOCLXhLfvapyopDZLEz+dU885r9Cuv3d/gB5o5NYPQz6YAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;httprequest&quot;
         title=&quot;httprequest&quot;
-        src=&quot;/static/4e0edf1cd908643c640fe40d40e75735/799d3/httprequest.png&quot;
-        srcset=&quot;/static/4e0edf1cd908643c640fe40d40e75735/00d96/httprequest.png 148w,
-/static/4e0edf1cd908643c640fe40d40e75735/0b23c/httprequest.png 295w,
-/static/4e0edf1cd908643c640fe40d40e75735/799d3/httprequest.png 590w,
-/static/4e0edf1cd908643c640fe40d40e75735/797f9/httprequest.png 806w&quot;
+        src=&quot;/static/4e0edf1cd908643c640fe40d40e75735/fcda8/httprequest.png&quot;
+        srcset=&quot;/static/4e0edf1cd908643c640fe40d40e75735/12f09/httprequest.png 148w,
+/static/4e0edf1cd908643c640fe40d40e75735/e4a3f/httprequest.png 295w,
+/static/4e0edf1cd908643c640fe40d40e75735/fcda8/httprequest.png 590w,
+/static/4e0edf1cd908643c640fe40d40e75735/764be/httprequest.png 806w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -215,23 +212,23 @@
 &lt;p&gt;POST 메소드는 HTTP의 바디에 데이터를 넣어 전송한다.
 GET과는 다르게 요청내용을 바디에 저장하기 때문에 데이터가 노출되지 않는다. 주로 HTML form 형태로 입력을 받아 POST 방식으로 전송하게 된다. 또한 데이터의 길이가 길 경우 URL에 담기에는 무리가 있고 제한이 있기 때문에 길이에 제한이 없는 바디에 담아 전송한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[MTV pattern에 따른 개발]]></title><description><![CDATA[Django 프레임워크에선 웹 개발시에 MTV…]]></description><link>https://rnjsrntkd95.github.io/django/django-mtv-pattern/</link><guid isPermaLink="false">https://rnjsrntkd95.github.io/django/django-mtv-pattern/</guid><pubDate>Wed, 15 Jan 2020 16:02:11 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 48.728813559322035%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABJ0AAASdAHeZh94AAACJ0lEQVQoz32S7UvTURTHr7qn5lxKuvakW3v8bdNqKs6VE+nRB5JyPSBjoogKhggVvohe9U/Uq17Yi/CJUQ4far2XCGqt3lUQvhm1XBhukMW3e25tKoIX7j33fu6555x7zmH2sy1wng+iukVCZZMTFX67kNaOZuhafZx7UNXsEkxVX4dDDZYDJxu9dxudw/3oGx9C71gU3SMRBMKdiNwax8T9u4jeuYnBqQmciYah9NXuM1BwUpBMyTcKnxmHG53QnLRB2+hABZf0WMuj1fodgtMsPCo/cQyq/1J93LonckYHgsx2BHLJCGavQanbIJRL3HrOq/9xfl98xJnSYxa6Mo+pGCFNVk7GHDpEJsfwJvUOseU47Dx/xCwhP2YXY0i+T2F4ahIlLj3KuLMRvk9+SOHxwgz0AR/kXhPUBWelkgHSuSB+bm4in8uBxuyzGJhBjYfTj8Q5n8sj+30DEi9e/cVQkdF4wHWYtQoaSgNFyJw6tF3rwe9f23ibTCLzLYO116/AzFosvXyOzx8/YXllFRtfMzgV7kLo+iVg+w9eJBJY/7KOeGIVzFK5Y5DClEsmTM89ER5zW1u4MjoAZtKgZ6gfP7JZwefjT6Hy1oJSNMd/QCOdTqPjRi+Y66jg4su0KHhFZW4jApcvwNbeJPJHRWGOGpHHYF8XFNwp6cm9ZmH49NVu1LX5QT9UN1h3irKn5PyyzGMstgJ5lfEz8X0NzBlVeHfbkPwLpSZw/k5tguUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 48.64864864864865%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABJ0AAASdAHeZh94AAACHklEQVQoz3VSXUhTYRj+bNZsy9icTp22uek5arbN+RejE8QMSRNLRQklM9RESoVIUfSiIPCybqSb3VR0EUhYUJGCNESNrsJpP2J3rdCRdlk2ePy+d2dzCR14z3u+53vO873v837McsoFh68KxgoZR0od0LvyoHfbYVHchBnKJcJTPfk47LQh5YSV8v+C9YzdxIW+K7jIo6G3A/XXLuNk8zm0DvRg8O44OoZuoHO4H3XdbSS8X3D/msVIaZWFPIpg4mEsl6HjlYpvU1U0DByLCYgOdGonIieKMm3JMQJZQQaYIx3MbgKTMwnTFFvAbEa+Z+Z4GlKcVpVrjgbna4os0Dn3RJneZQeTMuFtqsXruVlMvXyOkhqFRI+6HZiYvIeF9+9wfXwYyfznJDkL1W2NmAnM4fHUU+SdLouKqpVShQZPAT6vfUHsmV9aBLMaMHh7lNaRSAR/f/9BdXsTHbL1cyvOffHmFVUrBKlCoZ5/phK/trexsrqK9fWvCIVC0EhZmHzox/dvITybnsbmjw1cHeqHTSkl8beBAILLQax8+oiDXCPuYcyT+/4H8VNHJu6A5abC21yLcDhM2IfgMnK8ThzgLfufPCJshwt33Rog/4V1JCheWt67Rs6G0nIeFQ1nkSRFh8IkM6yKB3Wdl2D0SNyrbAiLtMdz4eM+ltX7iJt4hdg/IxeTUycscJGTi3P4NE04pN6GPW5GnJt4H3cB/R5wqPYmfOEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;MTVpattern&quot;
         title=&quot;MTVpattern&quot;
-        src=&quot;/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/799d3/MTVpattern.png&quot;
-        srcset=&quot;/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/00d96/MTVpattern.png 148w,
-/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/0b23c/MTVpattern.png 295w,
-/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/799d3/MTVpattern.png 590w,
-/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/2a3d6/MTVpattern.png 885w,
-/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/ae92f/MTVpattern.png 1180w,
-/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/ae347/MTVpattern.png 1416w&quot;
+        src=&quot;/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/fcda8/MTVpattern.png&quot;
+        srcset=&quot;/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/12f09/MTVpattern.png 148w,
+/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/e4a3f/MTVpattern.png 295w,
+/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/fcda8/MTVpattern.png 590w,
+/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/efc66/MTVpattern.png 885w,
+/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/c83ae/MTVpattern.png 1180w,
+/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/d4e7f/MTVpattern.png 1416w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -249,21 +246,21 @@ GET과는 다르게 요청내용을 바디에 저장하기 때문에 데이터�
 &lt;p&gt;이제 각각의 MTV를 자세히 살펴보려고 한다.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 52.130325814536334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABJ0AAASdAHeZh94AAACNklEQVQoz3VTXUySURg+kFqR1kAIEoMPhE+QlPpE0MYERCw1ox+saUZmq/WzVau8cNVNszW7aKsurDVLNplZVrK1tm5b66pca2v9jXu7qK77fTrvEZhz9W3v3nPO9573fZ/3eQ5bts6C5bVWLPYLTVMnQV29BsyqBXMaC3H/imV0SBdK19uxwmsThyU1lShyV3AzY6lnLViVAd7OMCZnptGWTEAlG8WdxQ3QmtEPxgNYZRmYvVwkMG2shT3SAGuoHuagF9p6GaOpMdA3lXkoCpRtqCo0QD6/ZgShcfsm3Ji4g4HB41DLJugaXFDiMUSTO+HtikDnq4bUrOD8yDDqOkIc9mpeXC8Sl+QQMFs5imvMYI6IH9lsFr++/8Cfn79xYPAEjI0eWEKKgKDiBZhNh6ZEO6YePUB7/25oFRmZp08wfP0K1E4TRkavYvpxBsaAB6z76H58+vARE+k0Xr2cxfi9SUhhH5p74wj3bkNb/y44owFcu31TQE7dv4vWPTvE+u279wh2b8Hc3GexD/fEwQw+F569eC4Ovn35KoIJjr3FD/fmIORYE/R+N3R8jkOXLsDREkCRqwJHzp5B50CP6H7rwT4cGjo1TwrJgVrtO3kYSlcUKuc8g8TyEn6xmDNOZMX2JjD75jWSp4/xOeVm6DCIWPKUuMCyGKakFWzTPi8FDTdik1lW4dzliwLFrXRKJFiZY5liyZfmWRY6zFEvtEWCXaCrvC71nPl9vDuJS4m61/znEfwFCc9dcXIRKGkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 52.02702702702703%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABJ0AAASdAHeZh94AAACMElEQVQoz3VSXUiTYRR+3WyaTkndpkvXpnPbt88tZ+k0JXEmaMx+KIxAqps0RtlFiqgp3kkR6EUJUgZRUDfdBLGbiAq6jOgiGkvNi7V1FWoRKzCfznntGxL2wfnOeV/Oed7nPOeIXN8e7PTbM/bvWTOduwyFtVXQe6yZnO1yBf/yayvlIX+vA3nkc2ps2KGWI9tbLmPhNOH0QB8+J5OIjA9BVJth/FuzFZRjCSiqTJIBe72yG7bWffCH2xA42g6lsxnWZj+mb8+Cv1v35iUgF+f4bMgjEvyooaZCkhFZrlJcnhxB7GMc8w/vozDghJGMAYMnu1AZqqdCYkHWe7EPpnqPBLQEVRSQBKLaImtK6F6vWCEOnurGl2QKiwsL+L76DRM3piSIg4zZMwNm3z96BYlEAgP0uKfjAFKpFB4/fULAXjx//QpLy5/gPtQIcbz/DJYXlxCNRhGPxTFzZw7mRi86zvUgfL4Xxy6chbezBZPT14D1DUzdnEFLTxhrX1fw7OUL1HWH8D72AWsrq6g70g6Rq9pw99ED/Eyn8ebdWzjbGmRLRfvdBKyimFphpgYaUGRsEOYGhbQuQdOJLjhDlGvfRcyaJJiONkCwmHpqyRUKwuh3yEueuhRarZAtC3sRLk0MY2P9NzG9DuGyIMtTJgfI09axdu7SzaFkdFI294vjratgDJDwjmJErg7h1480xklj7qCA7rVc9lostGK+2G6vNM+MfYdb5a4aKP7fYv8BgmZeOe3Gd+IAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;MTVpattern&quot;
         title=&quot;MTVpattern&quot;
-        src=&quot;/static/fb42bed282e22f9596d8366b12a265a9/799d3/MTVpattern2.png&quot;
-        srcset=&quot;/static/fb42bed282e22f9596d8366b12a265a9/00d96/MTVpattern2.png 148w,
-/static/fb42bed282e22f9596d8366b12a265a9/0b23c/MTVpattern2.png 295w,
-/static/fb42bed282e22f9596d8366b12a265a9/799d3/MTVpattern2.png 590w,
-/static/fb42bed282e22f9596d8366b12a265a9/fecec/MTVpattern2.png 798w&quot;
+        src=&quot;/static/fb42bed282e22f9596d8366b12a265a9/fcda8/MTVpattern2.png&quot;
+        srcset=&quot;/static/fb42bed282e22f9596d8366b12a265a9/12f09/MTVpattern2.png 148w,
+/static/fb42bed282e22f9596d8366b12a265a9/e4a3f/MTVpattern2.png 295w,
+/static/fb42bed282e22f9596d8366b12a265a9/fcda8/MTVpattern2.png 590w,
+/static/fb42bed282e22f9596d8366b12a265a9/898f6/MTVpattern2.png 798w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -294,23 +291,23 @@ GET과는 다르게 요청내용을 바디에 저장하기 때문에 데이터�
 &lt;p&gt;이러한 과정이 웹에서 빈번하게 발생한다. 클라이언트가 홈페이지의 ‘회원가입’ 버튼을 눌러 Request를 보낸다. 그러면 서버는 회원가입에 필요한 양식이 담긴 페이지의 주소(URL)를 Response로 보내온다. 이렇듯 Request &amp;#x26; Response를 쉽게 이해해볼 수 있겠다.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 46.2137296532201%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABJ0AAASdAHeZh94AAAB+UlEQVQoz2WSWU8aURTHB+uC8GCjVYygMiIoOgwiIoosQcA1trYqsX2wVdGYaG3UPjRN44NfyagxJGppwS+g7UND3Z5dHtFE/r3njlDTTnLmbv/zu/csgt7XBufLCBp6XRDJgi5YB7zc7CNByMzEYAcskW6YQp1o6vOg1u+AWqpDqa3+PxMaQm5MvI/h9coCpj4uYnxpFsOxNwi/neDjq8UZRJfnEPu8isHZSUQ/zCM0NYaS1lpoZCOH5OESAxa3GFDQVI2Sh02VRQeBGTkUWvV40lwDjc3InYrYmozmhdYa5ewfqEA/cuALcxWMPgdMgQ6ozDouogvpEpWlmsMUnQ71XgdEv5PP1TYFRiMHau0ihMZKvFtbQiaTQfb+HqsbX7i4MdwF7+QIuqPDMEe6uG6a6e5u74BsFsvrn/iell4qPQCLWXhP281IHqaQSiaRSCRwdHwMacCH1iE/nKNhOF6EYH/eC2PAiV+/07i5vsb5xQUur65Q0W5hDMPfkCk0ss2dbZym0zg7OcU3BtZ7ZAYKw8Ne1znWz6te1mZC4jCJ3Hf08wc00qMc0oQSSzmSBwPY2YvjIPUdPeNDrAWeodzVzFvJwNqr0t3Cwqviuq34LuJf9+Ee7eNFJIY6F3IeyqpN+SAnyp9WFvPVLmLFybWKolM0j2HE+gP6kT2UtlKf3gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 45.94594594594595%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABJ0AAASdAHeZh94AAACAUlEQVQoz1VSSU9aURS+iuCA1iEOCCI4AYoTCkZqQQgKKhLBAQdapY0mTRMX3TQm6sJF00XblWlNjEnduHH4AzZx3BqnGDf6I8To1s9zb3xPfcl559xzv/edc77zmN7dhOBUDC0DXXAO9aA54kfbcC+c0SC87yPojEdhp5xrtE9g+J2tz4e02lJh6XWGV8YKnbXwxMLonhxD/5c4/B+H4SEiR3+APg6ine66Po1gcHoS70ZC6JgYIvIQ1A1lwjiJTEyeqawlYFVFSDJpkGTWgOmzwHSZSKZYYSmmfBHFktcIHM+zigKwsjykPpFJpIy/MuqN4qC06OCLRTDwOY43jRVIqdYJYKpVL0zFPZ05zjsaRnjqAzLrjFDWlMikgpC3zitOz3+D9KxtrYsRTP63CJAMvvFBNIU7oKBuvy7MvsKlmLXPGr5sd2d/F/+3t7GxsYnrq2u4oiGYA22w9rhR0+1CfciLUpcN55cXuE0kcHp2Bjw8oNLjQDLJwCeVR2ZVhfi1tIi7mwTub++wd3iAAoeFiNy0tAha6Q/g21VatPi7uiJ3eHRyDDWNLWsoBVyHbNJt7ud3LP5bhsnXKoqoqVh+SzXy7GZk2ypJVy1yyM/8WMDv5T8ob7eLpfGmZA0lUi46M+aCGXLEJiWQioqpnhaTQd0IHG2YGXKhoAISjnM8AtX9PQKWsLWyAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Request-Response&quot;
         title=&quot;Request-Response&quot;
-        src=&quot;/static/79cdf63012da2068e52fa9f00b9d65f5/799d3/request-response.png&quot;
-        srcset=&quot;/static/79cdf63012da2068e52fa9f00b9d65f5/00d96/request-response.png 148w,
-/static/79cdf63012da2068e52fa9f00b9d65f5/0b23c/request-response.png 295w,
-/static/79cdf63012da2068e52fa9f00b9d65f5/799d3/request-response.png 590w,
-/static/79cdf63012da2068e52fa9f00b9d65f5/2a3d6/request-response.png 885w,
-/static/79cdf63012da2068e52fa9f00b9d65f5/ae92f/request-response.png 1180w,
-/static/79cdf63012da2068e52fa9f00b9d65f5/dc6b6/request-response.png 1413w&quot;
+        src=&quot;/static/79cdf63012da2068e52fa9f00b9d65f5/fcda8/request-response.png&quot;
+        srcset=&quot;/static/79cdf63012da2068e52fa9f00b9d65f5/12f09/request-response.png 148w,
+/static/79cdf63012da2068e52fa9f00b9d65f5/e4a3f/request-response.png 295w,
+/static/79cdf63012da2068e52fa9f00b9d65f5/fcda8/request-response.png 590w,
+/static/79cdf63012da2068e52fa9f00b9d65f5/efc66/request-response.png 885w,
+/static/79cdf63012da2068e52fa9f00b9d65f5/c83ae/request-response.png 1180w,
+/static/79cdf63012da2068e52fa9f00b9d65f5/b1c31/request-response.png 1413w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
