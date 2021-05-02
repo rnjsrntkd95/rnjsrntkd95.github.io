@@ -13,7 +13,7 @@ HTTP(Hypertext Transfer Protocol)는 하나의 통신 프로토콜이다. 정의
 먼저 HTTP request 메시지의 구조를 살펴보자.
 
 > **HTTP Request message format**
-![httprequest](./images/httprequest.png)
+![httprequest](./images/httprequest.jpg)
 
 request 메시지 구조는 크게 <U>**헤더(Header)**</U>와 <U>**바디(Body)**</U>로 나뉘어진다. 헤더에는 클라이언트 정보가 담기고 이것을 메타정보라고 한다. 바디에는 요청에 대한 요청에 대한 정보가 담기고 보통은 비어있다.
 

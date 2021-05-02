@@ -13,7 +13,7 @@ Request는 요청, Response는 응답이라는 뜻이다. 단어의 뜻만 들�
 
 이러한 과정이 웹에서 빈번하게 발생한다. 클라이언트가 홈페이지의 '회원가입' 버튼을 눌러 Request를 보낸다. 그러면 서버는 회원가입에 필요한 양식이 담긴 페이지의 주소(URL)를 Response로 보내온다. 이렇듯 Request & Response를 쉽게 이해해볼 수 있겠다.
 
-![Request-Response](./images/request-response.png)
+![Request-Response](./images/request-response.jpg)
 
 ### Request 객체
 클라이언트가 서버에 어떤 정보를 요청하는 것이 Request이며 이 요청 정보를 관리하는 것이 Request 객체이다.

@@ -5,7 +5,7 @@ category: django
 draft: false
 ---
 
-![MTVpattern](./images/MTVpattern.png)
+![MTVpattern](./images/MTVpattern.jpg)
 
 Django 프레임워크에선 웹 개발시에 MTV 패턴을 사용하여 설계한다.
 처음엔 위와 같은 모듈의 분할과 방식의 필요성에 대해 의문이 들었다. 
@@ -20,7 +20,7 @@ Django에서도 MTV 패턴을 사용함으로서 모듈 간에 독립성을 유�
 
 이제 각각의 MTV를 자세히 살펴보려고 한다.
 
-![MTVpattern](./images/MTVpattern2.png)
+![](./images/MTVpattern2.jpg)
 
 앞의 글에서 [[WEB]Request, Response](https://rnjsrntkd95.github.io/django/request-response/)를 알아보았다. 클라이언트가 보낸 Request에 대해 서버는 Response를 보내야한다. MTV패턴은 해당 Response를 생성할 때 적용된다. **Model**은 데이터베이스로부터 데이터를 가져오거나 저장, 수정하는 기능을 하고, **Template**은 Response의 양식이 담긴 페이지를 만들어주는 기능을 한다. **View**는 Model에서 가져운 데이터를 적절하게 변환하여 Template에게 전달하는 기능을 한다. Model과 Template를 연결해준다고 생각할 수 있다. 
 
