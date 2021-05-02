@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KUSG.io]]></title><description><![CDATA[Kwon Ku Sang record and portfolio]]></description><link>https://rnjsrntkd95.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 02 May 2021 04:10:38 GMT</lastBuildDate><item><title><![CDATA[CRUD]]></title><description><![CDATA[웹을 배워가면서 많이 들렸던 단어들 중 하나가 CRUD이다. Django뿐만 아니라 앞으로 프로젝트를 진행하면서 반드시 개념을 제대로 잡고 있어야 할 것 같아 정리해보려고 한다. CRUD는 데이터 처리의 기본 기능을 뜻한다. Create 생성 Read…]]></description><link>https://rnjsrntkd95.github.io/django/crud/</link><guid isPermaLink="false">https://rnjsrntkd95.github.io/django/crud/</guid><pubDate>Sun, 02 May 2021 12:05:01 GMT</pubDate><content:encoded>&lt;p&gt;웹을 배워가면서 많이 들렸던 단어들 중 하나가 CRUD이다. Django뿐만 아니라 앞으로 프로젝트를 진행하면서 반드시 개념을 제대로 잡고 있어야 할 것 같아 정리해보려고 한다.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KUSG.io]]></title><description><![CDATA[Kwon Ku Sang record and portfolio]]></description><link>https://rnjsrntkd95.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 02 May 2021 04:28:10 GMT</lastBuildDate><item><title><![CDATA[CRUD]]></title><description><![CDATA[웹을 배워가면서 많이 들렸던 단어들 중 하나가 CRUD이다. Django뿐만 아니라 앞으로 프로젝트를 진행하면서 반드시 개념을 제대로 잡고 있어야 할 것 같아 정리해보려고 한다. CRUD는 데이터 처리의 기본 기능을 뜻한다. Create 생성 Read…]]></description><link>https://rnjsrntkd95.github.io/django/crud/</link><guid isPermaLink="false">https://rnjsrntkd95.github.io/django/crud/</guid><pubDate>Sun, 02 May 2021 12:05:01 GMT</pubDate><content:encoded>&lt;p&gt;웹을 배워가면서 많이 들렸던 단어들 중 하나가 CRUD이다. Django뿐만 아니라 앞으로 프로젝트를 진행하면서 반드시 개념을 제대로 잡고 있어야 할 것 같아 정리해보려고 한다.&lt;/p&gt;
 &lt;p&gt;CRUD는 데이터 처리의 기본 기능을 뜻한다.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Create 생성&lt;/li&gt;
@@ -180,17 +180,17 @@
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 60.13513513513513%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABJ0AAASdAHeZh94AAAB6klEQVQoz5VT127jQAzU/39XgBQktgEnjqHEJaor25JVV5JV5oarS7nkXkKAJrWFOzOkrTRNcTplCMMzkiSD73uI45NZc90YZVkgCHwcj0fuF1BqOqeU4p0QCe939EsQoHUcWL4f4OHBxdXVDratMJvNsdvtsd0ecX+/RZpmuLub4eXlFU9PPq6vN9yPsN28Mu5wiGPo9RrVYoGOOQtGWK0iHlYmrlZH5hGLR0TgEnGMxSJCFKXYbGyifuN6gK7rMIwjurJEn2V4N0tgV5VGnheMJSl+ep7n/6zJd1GUlOOEoe+nCizaui4aohXaVsCf35ro2V0uUz26Xi5R3t6i56OWNGWy4YdfeGkYenNNYt8PBDQSZcF8QjiSulAe/z5g7fceG+GxAQ7mc5cNeuO3g+XSZWNEeIWbmz0cR1HbRzw/r+F5Hh8YJhhNY5BN7EehHLKDjnGlYo6EaJSbERH0eV6SYm5ikiQ4n8/QWn/Ql4JD234WlKYoFeJwUMiyFHWt6RXaVtNrNI0mdc3mVKaQuOQZadZ1/UNfSwQWE01kFEQ38TTVRCaotMm/7slZKSxozV0+0JPNB8L/WRjW1K/k3FUm/25SWMbH5FGE2rYxUleDUOCLXhLfvapyopDZLEz+dU885r9Cuv3d/gB5o5NYPQz6YAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 60.13513513513513%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHtbQKR/8QAFxAAAwEAAAAAAAAAAAAAAAAAABEgIf/aAAgBAQABBQLBCj//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAWEAADAAAAAAAAAAAAAAAAAAABIDH/2gAIAQEABj8Cpb//xAAZEAADAAMAAAAAAAAAAAAAAAAAAREgMYH/2gAIAQEAAT8hgEl2zjD/2gAMAwEAAgADAAAAEEj/AP/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPxBtf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EAB0QAAICAgMBAAAAAAAAAAAAAAERACExYUFRgaH/2gAIAQEAAT8QBeznMJG1ttiArr04MIADYjQX2LZn/9k=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;httprequest&quot;
         title=&quot;httprequest&quot;
-        src=&quot;/static/4e0edf1cd908643c640fe40d40e75735/fcda8/httprequest.png&quot;
-        srcset=&quot;/static/4e0edf1cd908643c640fe40d40e75735/12f09/httprequest.png 148w,
-/static/4e0edf1cd908643c640fe40d40e75735/e4a3f/httprequest.png 295w,
-/static/4e0edf1cd908643c640fe40d40e75735/fcda8/httprequest.png 590w,
-/static/4e0edf1cd908643c640fe40d40e75735/764be/httprequest.png 806w&quot;
+        src=&quot;/static/d5a25b5144373435e8f3477ba44433b3/1c72d/httprequest.jpg&quot;
+        srcset=&quot;/static/d5a25b5144373435e8f3477ba44433b3/a80bd/httprequest.jpg 148w,
+/static/d5a25b5144373435e8f3477ba44433b3/1c91a/httprequest.jpg 295w,
+/static/d5a25b5144373435e8f3477ba44433b3/1c72d/httprequest.jpg 590w,
+/static/d5a25b5144373435e8f3477ba44433b3/31be4/httprequest.jpg 806w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -216,19 +216,19 @@ GET과는 다르게 요청내용을 바디에 저장하기 때문에 데이터�
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 48.64864864864865%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABJ0AAASdAHeZh94AAACHklEQVQoz3VSXUhTYRj+bNZsy9icTp22uek5arbN+RejE8QMSRNLRQklM9RESoVIUfSiIPCybqSb3VR0EUhYUJGCNESNrsJpP2J3rdCRdlk2ePy+d2dzCR14z3u+53vO873v837McsoFh68KxgoZR0od0LvyoHfbYVHchBnKJcJTPfk47LQh5YSV8v+C9YzdxIW+K7jIo6G3A/XXLuNk8zm0DvRg8O44OoZuoHO4H3XdbSS8X3D/msVIaZWFPIpg4mEsl6HjlYpvU1U0DByLCYgOdGonIieKMm3JMQJZQQaYIx3MbgKTMwnTFFvAbEa+Z+Z4GlKcVpVrjgbna4os0Dn3RJneZQeTMuFtqsXruVlMvXyOkhqFRI+6HZiYvIeF9+9wfXwYyfznJDkL1W2NmAnM4fHUU+SdLouKqpVShQZPAT6vfUHsmV9aBLMaMHh7lNaRSAR/f/9BdXsTHbL1cyvOffHmFVUrBKlCoZ5/phK/trexsrqK9fWvCIVC0EhZmHzox/dvITybnsbmjw1cHeqHTSkl8beBAILLQax8+oiDXCPuYcyT+/4H8VNHJu6A5abC21yLcDhM2IfgMnK8ThzgLfufPCJshwt33Rog/4V1JCheWt67Rs6G0nIeFQ1nkSRFh8IkM6yKB3Wdl2D0SNyrbAiLtMdz4eM+ltX7iJt4hdg/IxeTUycscJGTi3P4NE04pN6GPW5GnJt4H3cB/R5wqPYmfOEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 48.64864864864865%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIDBAX/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAasmaMOIJ//EABoQAAICAwAAAAAAAAAAAAAAAAECBBMQEiP/2gAIAQEAAQUCqNBi9mGrZ//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EAB0QAAEDBQEAAAAAAAAAAAAAAAEAEjECERMgIVH/2gAIAQEABj8CyvEwhQ8dF4RHmn//xAAcEAEAAgEFAAAAAAAAAAAAAAABABEhIDFBYdH/2gAIAQEAAT8hFG9ph3GV8y8TO42qzR//2gAMAwEAAgADAAAAEHDP/8QAFhEAAwAAAAAAAAAAAAAAAAAAARAR/9oACAEDAQE/EKF//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHBAAAgIDAQEAAAAAAAAAAAAAAREAITFBYRBR/9oACAEBAAE/EEGUOGmmfu0sQlOSJU0UgBvnI2XfUKORORnLvz//2Q==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;MTVpattern&quot;
         title=&quot;MTVpattern&quot;
-        src=&quot;/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/fcda8/MTVpattern.png&quot;
-        srcset=&quot;/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/12f09/MTVpattern.png 148w,
-/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/e4a3f/MTVpattern.png 295w,
-/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/fcda8/MTVpattern.png 590w,
-/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/efc66/MTVpattern.png 885w,
-/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/c83ae/MTVpattern.png 1180w,
-/static/7ec6242e7fdb63e1bbe98fc26c7c64a7/d4e7f/MTVpattern.png 1416w&quot;
+        src=&quot;/static/9823e947801f87eb3142de2f7722211f/1c72d/MTVpattern.jpg&quot;
+        srcset=&quot;/static/9823e947801f87eb3142de2f7722211f/a80bd/MTVpattern.jpg 148w,
+/static/9823e947801f87eb3142de2f7722211f/1c91a/MTVpattern.jpg 295w,
+/static/9823e947801f87eb3142de2f7722211f/1c72d/MTVpattern.jpg 590w,
+/static/9823e947801f87eb3142de2f7722211f/a8a14/MTVpattern.jpg 885w,
+/static/9823e947801f87eb3142de2f7722211f/fbd2c/MTVpattern.jpg 1180w,
+/static/9823e947801f87eb3142de2f7722211f/991bb/MTVpattern.jpg 1416w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -250,17 +250,17 @@ GET과는 다르게 요청내용을 바디에 저장하기 때문에 데이터�
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 52.02702702702703%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABJ0AAASdAHeZh94AAACMElEQVQoz3VSXUiTYRR+3WyaTkndpkvXpnPbt88tZ+k0JXEmaMx+KIxAqps0RtlFiqgp3kkR6EUJUgZRUDfdBLGbiAq6jOgiGkvNi7V1FWoRKzCfznntGxL2wfnOeV/Oed7nPOeIXN8e7PTbM/bvWTOduwyFtVXQe6yZnO1yBf/yayvlIX+vA3nkc2ps2KGWI9tbLmPhNOH0QB8+J5OIjA9BVJth/FuzFZRjCSiqTJIBe72yG7bWffCH2xA42g6lsxnWZj+mb8+Cv1v35iUgF+f4bMgjEvyooaZCkhFZrlJcnhxB7GMc8w/vozDghJGMAYMnu1AZqqdCYkHWe7EPpnqPBLQEVRSQBKLaImtK6F6vWCEOnurGl2QKiwsL+L76DRM3piSIg4zZMwNm3z96BYlEAgP0uKfjAFKpFB4/fULAXjx//QpLy5/gPtQIcbz/DJYXlxCNRhGPxTFzZw7mRi86zvUgfL4Xxy6chbezBZPT14D1DUzdnEFLTxhrX1fw7OUL1HWH8D72AWsrq6g70g6Rq9pw99ED/Eyn8ebdWzjbGmRLRfvdBKyimFphpgYaUGRsEOYGhbQuQdOJLjhDlGvfRcyaJJiONkCwmHpqyRUKwuh3yEueuhRarZAtC3sRLk0MY2P9NzG9DuGyIMtTJgfI09axdu7SzaFkdFI294vjratgDJDwjmJErg7h1480xklj7qCA7rVc9lostGK+2G6vNM+MfYdb5a4aKP7fYv8BgmZeOe3Gd+IAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 52.02702702702703%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAQP/xAAVAQEBAAAAAAAAAAAAAAAAAAAAA//aAAwDAQACEAMQAAABhaPU3OYf/8QAGhAAAgIDAAAAAAAAAAAAAAAAAQIDEQAQEv/aAAgBAQABBQJ0jVeVMRC6s1n/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAbEAACAgMBAAAAAAAAAAAAAAABEQIhABAxUf/aAAgBAQAGPwKBE2T3IsiNm1gUnXmk61//xAAbEAACAgMBAAAAAAAAAAAAAAABEQBRECExQf/aAAgBAQABPyFZOaVAswe3Vwb0mNDWNBiHmP/aAAwDAQACAAMAAAAQt8//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPxCn/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGxABAAIDAQEAAAAAAAAAAAAAAREhABBRYUH/2gAIAQEAAT8QBNNU2jyy6vGAYGe1Q+HBYqARHb1pZqISdD2Nf//Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;MTVpattern&quot;
-        title=&quot;MTVpattern&quot;
-        src=&quot;/static/fb42bed282e22f9596d8366b12a265a9/fcda8/MTVpattern2.png&quot;
-        srcset=&quot;/static/fb42bed282e22f9596d8366b12a265a9/12f09/MTVpattern2.png 148w,
-/static/fb42bed282e22f9596d8366b12a265a9/e4a3f/MTVpattern2.png 295w,
-/static/fb42bed282e22f9596d8366b12a265a9/fcda8/MTVpattern2.png 590w,
-/static/fb42bed282e22f9596d8366b12a265a9/898f6/MTVpattern2.png 798w&quot;
+        alt=&quot;MTVpattern2&quot;
+        title=&quot;MTVpattern2&quot;
+        src=&quot;/static/33bc5a0e16e65f00f3fe5a7d20f64e70/1c72d/MTVpattern2.jpg&quot;
+        srcset=&quot;/static/33bc5a0e16e65f00f3fe5a7d20f64e70/a80bd/MTVpattern2.jpg 148w,
+/static/33bc5a0e16e65f00f3fe5a7d20f64e70/1c91a/MTVpattern2.jpg 295w,
+/static/33bc5a0e16e65f00f3fe5a7d20f64e70/1c72d/MTVpattern2.jpg 590w,
+/static/33bc5a0e16e65f00f3fe5a7d20f64e70/aad24/MTVpattern2.jpg 798w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -295,19 +295,19 @@ GET과는 다르게 요청내용을 바디에 저장하기 때문에 데이터�
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 45.94594594594595%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABJ0AAASdAHeZh94AAACAUlEQVQoz1VSSU9aURS+iuCA1iEOCCI4AYoTCkZqQQgKKhLBAQdapY0mTRMX3TQm6sJF00XblWlNjEnduHH4AzZx3BqnGDf6I8To1s9zb3xPfcl559xzv/edc77zmN7dhOBUDC0DXXAO9aA54kfbcC+c0SC87yPojEdhp5xrtE9g+J2tz4e02lJh6XWGV8YKnbXwxMLonhxD/5c4/B+H4SEiR3+APg6ine66Po1gcHoS70ZC6JgYIvIQ1A1lwjiJTEyeqawlYFVFSDJpkGTWgOmzwHSZSKZYYSmmfBHFktcIHM+zigKwsjykPpFJpIy/MuqN4qC06OCLRTDwOY43jRVIqdYJYKpVL0zFPZ05zjsaRnjqAzLrjFDWlMikgpC3zitOz3+D9KxtrYsRTP63CJAMvvFBNIU7oKBuvy7MvsKlmLXPGr5sd2d/F/+3t7GxsYnrq2u4oiGYA22w9rhR0+1CfciLUpcN55cXuE0kcHp2Bjw8oNLjQDLJwCeVR2ZVhfi1tIi7mwTub++wd3iAAoeFiNy0tAha6Q/g21VatPi7uiJ3eHRyDDWNLWsoBVyHbNJt7ud3LP5bhsnXKoqoqVh+SzXy7GZk2ypJVy1yyM/8WMDv5T8ob7eLpfGmZA0lUi46M+aCGXLEJiWQioqpnhaTQd0IHG2YGXKhoAISjnM8AtX9PQKWsLWyAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 45.94594594594595%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIE/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAP/2gAMAwEAAhADEAAAAcbETtI//8QAGhABAAEFAAAAAAAAAAAAAAAAAgMBEBESE//aAAgBAQABBQIDaKMdWqYV/wD/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAZEAEAAwEBAAAAAAAAAAAAAAABAAISESD/2gAIAQEABj8CtbYZmW4RO98f/8QAGhAAAwADAQAAAAAAAAAAAAAAAAERITFBEP/aAAgBAQABPyG1scRZJqi1bEYIQ5V0e0PXn//aAAwDAQACAAMAAAAQBw//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAcEAEAAgMAAwAAAAAAAAAAAAABADERIUEQYYH/2gAIAQEAAT8QY0zTzadb9FzONCyccK39ghgcVYNnhWQon//Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Request-Response&quot;
         title=&quot;Request-Response&quot;
-        src=&quot;/static/79cdf63012da2068e52fa9f00b9d65f5/fcda8/request-response.png&quot;
-        srcset=&quot;/static/79cdf63012da2068e52fa9f00b9d65f5/12f09/request-response.png 148w,
-/static/79cdf63012da2068e52fa9f00b9d65f5/e4a3f/request-response.png 295w,
-/static/79cdf63012da2068e52fa9f00b9d65f5/fcda8/request-response.png 590w,
-/static/79cdf63012da2068e52fa9f00b9d65f5/efc66/request-response.png 885w,
-/static/79cdf63012da2068e52fa9f00b9d65f5/c83ae/request-response.png 1180w,
-/static/79cdf63012da2068e52fa9f00b9d65f5/b1c31/request-response.png 1413w&quot;
+        src=&quot;/static/1a069e9b12765596aad4683b32c77659/1c72d/request-response.jpg&quot;
+        srcset=&quot;/static/1a069e9b12765596aad4683b32c77659/a80bd/request-response.jpg 148w,
+/static/1a069e9b12765596aad4683b32c77659/1c91a/request-response.jpg 295w,
+/static/1a069e9b12765596aad4683b32c77659/1c72d/request-response.jpg 590w,
+/static/1a069e9b12765596aad4683b32c77659/a8a14/request-response.jpg 885w,
+/static/1a069e9b12765596aad4683b32c77659/fbd2c/request-response.jpg 1180w,
+/static/1a069e9b12765596aad4683b32c77659/c9d92/request-response.jpg 1413w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
