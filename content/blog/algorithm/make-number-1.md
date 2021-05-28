@@ -1,7 +1,7 @@
 ---
 title: "[1로 만들기] 다이나믹 프로그래밍을 해보자"
 date: 2020-01-11 15:01:27
-category: python
+category: algorithm
 draft: false
 ---
 
