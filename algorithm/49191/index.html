@@ -88,6 +88,29 @@
 <ol start="3">
 <li>이긴 경기 수와 진 경기 수의 합이 자신을 제외한 n-1과 같다면 모든 선수와 경기를 한 것이다. 즉, 해당 선수의 순위를 확신할 수 있다.</li>
 </ol>
+<h3 id="고민된-점" style="position:relative;"><a href="#%EA%B3%A0%EB%AF%BC%EB%90%9C-%EC%A0%90" aria-label="고민된 점 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>고민된 점</h3>
+<p>시나리오 2번을 구상할 때 고민되는 부분이 있었다.
+내가 선수 1번이고 선수 2번을 이겼을 때,</p>
+<ol>
+<li>
+<p>2번 선수를 이겼으니, 2번 선수가 이긴 선수도 내가 이긴다.</p>
+<ul>
+<li>1번의 이긴 경기 이력에 2번 선수가 이긴 선수들을 포함</li>
+</ul>
+</li>
+<li>
+<p>2번 선수를 이겼으니, 1번(나)이 진 선수들은 2번도 진다.</p>
+<ul>
+<li>2번의 진 경기 이력에 1번(나)의 진 선수들을 포함.</li>
+</ul>
+</li>
+</ol>
+<p>이 두 가지 경우이다. 비슷해보이지만 경기 이력 반영을 나에게 하느냐, 이기거나 진 선수에게 하느냐의 차이가 있다.</p>
+<p>말로 써내려갔을 땐 결국 모두 추가되니깐 결과는 같을 것이라 생각했다. 하지만 첫 번째 경우 테스트 케이스 2,7,8,9에서 실패가 발생한다. </p>
+<p>원인을 분석해보면 반복문으로 선수를 하나씩 살펴보면서 해당 경우들을 반복문으로 추가할 때, 자신의 인덱스 위치에서 자신의 승리, 패배 이력에 추가하게 되면(첫 번째 경우) 먼저 추가한 선수일 수록 추후에 시행되는 결과물들이 반영되지 않는다. 즉, 미완성된 경기이력을 가지고 반영한 꼴이 된다.</p>
+<p>때문에, 자신의 인덱스 위치에서 자신이 승리한 선수 또는 패배한 선수의 경기 이력을 갱신해줘야 한다.</p>
+<p>말이 복잡하지만 두 경우를 모두 구현해보면 차이점이 나타날 것이다.</p>
+<p>또 다른 꼼수?로는 서로의 경기 이력들을 반영하는 과정을 2번씩 반복하면 풀리긴 한다.😀 하지만 시간복잡도에서 좋지 않으니 PASS~</p>
 <h2 id="문제-풀이" style="position:relative;"><a href="#%EB%AC%B8%EC%A0%9C-%ED%92%80%EC%9D%B4" aria-label="문제 풀이 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>문제 풀이</h2>
 <div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">solution</span><span class="token punctuation">(</span>n<span class="token punctuation">,</span> results<span class="token punctuation">)</span><span class="token punctuation">:</span>
     answer <span class="token operator">=</span> <span class="token number">0</span>
